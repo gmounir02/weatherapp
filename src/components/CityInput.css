@@ -1,0 +1,8 @@
+.loading {
+  background-color: #ffffff;
+  background-image: url('../images/loading.gif');
+  background-size: 4vw 4vw; /* Using viewport width units for responsive background size */
+  background-position: 97% 50%; /* Center vertically and align to the right */
+  background-repeat: no-repeat;
+  padding-right: 6vw; /* Adjust padding using viewport width units */
+}

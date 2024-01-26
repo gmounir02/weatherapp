@@ -1,0 +1,44 @@
+.weather-box-list {
+  max-width: 100%; /* Ensure it doesn't exceed the viewport width */
+  width: 100%; /* Take full width of its container */
+  margin-top: 70px; /* Adjusted margin for responsiveness */
+  display: flex;
+  flex-wrap: wrap; /* Allow boxes to wrap to the next line */
+  justify-content: space-around;
+  align-items: center;
+}
+
+.weather-box-list > li {
+  list-style-type: none;
+  margin: 10px; /* Adjusted margin for spacing between boxes */
+}
+
+.weather-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 45%; /* Adjusted width for responsiveness */
+  max-width: 180px; /* Maximum width to maintain consistency */
+  min-width: 150px; /* Minimum width for smaller screens */
+  height: auto; /* Auto height to fit content */
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 3px 0px 8px silver;
+  padding: 15px; /* Adjusted padding for better spacing */
+}
+
+.weather-box > img {
+  width: 70px; /* Adjusted width for responsiveness */
+  height: 70px; /* Adjusted height for responsiveness */
+}
+
+.weather-box > h1 {
+  margin-top: 15px; /* Adjusted margin for spacing */
+  font-size: 16px; /* Adjusted font size for responsiveness */
+}
+
+.temp {
+  padding-bottom: 5px; /* Adjusted padding for spacing */
+  font-size: 0.8em; /* Adjusted font size for responsiveness */
+}

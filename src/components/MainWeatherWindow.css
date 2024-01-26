@@ -1,0 +1,67 @@
+.main {
+  position: relative;
+  top: -25px;
+  height: auto; /* Auto height to adjust based on content */
+  max-width: 100%; /* Ensure it doesn't exceed the viewport width */
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 0px 10px silver;
+}
+
+.inner-main {
+  width: 90%; /* Adjusted width for responsiveness */
+  max-width: 800px; /* Maximum width to maintain readability */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-main p {
+  padding: 0px;
+  margin-bottom: 5px; /* Adjusted margin */
+  color: #113555;
+}
+
+.inner-main > img {
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+  width: 100%; /* Make the image responsive */
+  margin-top: 20px; /* Adjusted margin */
+}
+
+.today {
+  width: 90%; /* Adjusted width for responsiveness */
+  max-width: 350px; /* Maximum width to maintain readability */
+  margin-top: 20px; /* Adjusted margin */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.today > h1 {
+  margin-bottom: 10px; /* Adjusted margin */
+}
+
+.title {
+  position: relative;
+  margin-top: 20px; /* Adjusted margin */
+  color: #365a7a;
+  font-size: 3rem; /* Adjusted font size */
+  width: 90%; /* Adjusted width for responsiveness */
+  max-width: 800px; /* Maximum width to maintain readability */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.title:before {
+  content: '';
+  background: url('../images/02d.svg') no-repeat;
+  background-size: cover; /* Ensure the background image covers the container */
+  width: 100%; /* Make the width responsive */
+  height: 250px;
+  display: block;
+}
